@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FlowState — Code Reading Practice</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@400;500;600;700&display=swap"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Flow<span>State</span></h1>
+    <p>Code reading practice for mentees</p>
+  </header>
+
+  <!-- Progress -->
+  <div id="progress-area">
+    <div id="progress-label">
+      <span>Progress</span>
+      <span id="progress-text">0 / 0</span>
+    </div>
+    <div id="progress-track">
+      <div id="progress-fill" style="width: 0%"></div>
+    </div>
+  </div>
+
+  <!-- Exercise card -->
+  <div id="card">
+    <p class="exercise-title" id="exercise-title"></p>
+
+    <div class="code-block">
+      <pre><code id="code-content"></code></pre>
+    </div>
+
+    <p class="question-text" id="question-text"></p>
+
+    <div class="options" id="options"></div>
+
+    <div id="explanation"></div>
+
+    <div id="nav">
+      <button class="btn-next" id="btn-next" disabled>Next →</button>
+    </div>
+  </div>
+
+  <!-- Results screen -->
+  <div id="results">
+    <div class="score-ring" id="score-ring">0%</div>
+    <h2 id="results-title"></h2>
+    <p class="sub" id="results-sub"></p>
+    <div class="breakdown" id="breakdown"></div>
+    <button class="btn-restart" id="btn-restart">Try again</button>
+  </div>
+
+  <script src="exercises.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
