@@ -2,7 +2,7 @@
    Footer
    ========================================================================== */
 
-.site-footer {
+.site__footer {
   background-color: var(--color-navy);
   padding: var(--space-3xl) var(--space-lg) var(--space-xl);
 }
@@ -46,24 +46,24 @@
 
 .footer__column a {
   display: block;
-  color: #0F1419;
+  color: #5b5d5f;
   font-size: 14px;
   padding: var(--space-xs) 0;
   text-decoration: none;
   transition: color 0.2s;
 }
 
-.footer__column a:hover {
+.footer-column a:hover {
   color: var(--color-accent);
 }
 
-.footer__bottom {
+.footer-bottom {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   padding-top: var(--space-lg);
   margin-top: -50px;
 }
 
-.footer__copyright {
+.footer-copyright {
   font-size: 13px;
   color: var(--color-muted);
 }
