@@ -2,10 +2,10 @@
    Hero Section
    ========================================================================== */
 
-.hero {
-  background-color: var(--color-navy);
+.hero-section {
+  background-color: #0F1419;
   padding: var(--space-4xl) var(--space-lg);
-  text-align: left;
+  text-align: Center;
 }
 
 .hero__content {
@@ -21,11 +21,14 @@
 
 .hero__subtitle {
   font-size: 20px;
-  color: #0F1419;
+  color: #f2f5f8;
   margin-bottom: var(--space-xl);
   line-height: 1.6;
 }
 
 .hero__actions {
   margin-top: var(--space-lg);
+}
+.button{
+  padding: auto;
 }
