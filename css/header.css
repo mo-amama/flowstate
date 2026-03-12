@@ -9,7 +9,13 @@
   padding: var(--space-md) var(--space-lg);
   border-bottom: 1px solid var(--color-border);
   z-index: 100;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  box-shadow: var(--color-accent);
+
 }
+
 
 .site-header__logo {
   font-size: 22px;
@@ -23,7 +29,8 @@
 }
 
 .nav-links {
-  align-items: center;
+  display: flex;
+  gap: 20px; 
 }
 
 .nav-links a {
